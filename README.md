@@ -3,7 +3,11 @@ DecisionSphere AI transforms messy business questions into structured, explainab
 
 🧠 Overview
 
-DecisionSphere AI is a multi-agent reasoning system that helps users make structured business decisions using simulated AI agents inspired by enterprise intelligence systems.
+DecisionSphere AI is a multi-agent reasoning platform that transforms unstructured business questions into explainable strategic recommendations.
+
+The system orchestrates specialized AI agents that validate inputs, decompose business goals, generate decision scenarios, simulate enterprise intelligence signals, evaluate alternatives, and recommend the most suitable strategy.
+
+The objective is to help organizations make faster, more transparent, and more data-driven decisions.
 
 It breaks down a business question into multiple reasoning layers:
 
@@ -31,6 +35,23 @@ Evaluation Agent
 Final Decision Output
 
 
+🧠 Multi-Agent Roles
+
+Validation Agent
+Checks whether the question is meaningful and business relevant.
+
+Decomposer Agent
+Extracts goals, risk profile, and decision factors.
+
+Scenario Generator Agent
+Creates multiple strategic approaches for evaluation.
+
+Fabric IQ Simulation Agent
+Generates enterprise intelligence signals including demand score, cost pressure, and market trend.
+
+Evaluation Agent
+Scores all scenarios and recommends the strongest option with explainable reasoning.
+
 🌍 Why This Project Matters
 
 Business decisions are often made with incomplete or unstructured reasoning.
@@ -41,15 +62,18 @@ DecisionSphere AI simulates enterprise-grade decision intelligence by:
 - Simulating Microsoft Fabric IQ-style intelligence signals
 - Helping users compare multiple strategic options before acting
 
-🧠 Microsoft IQ Simulation
+🧠 Microsoft Fabric IQ Inspired Intelligence Layer
 
-This project simulates Microsoft IQ-style intelligence layers:
+This project incorporates a Fabric IQ-inspired reasoning layer that enriches decision evaluation with structured business intelligence signals.
 
-- demand score
-- cost pressure
-- market trend
+Signals generated include:
 
-This helps mimic enterprise-grade decision intelligence systems.
+• Market Trend
+• Demand Score
+• Cost Pressure
+
+These signals are used by downstream agents to evaluate strategic alternatives and improve recommendation quality.
+
 
 🚀 Features
 
@@ -84,6 +108,8 @@ Risk Level: Medium
 orchestrator.py   → Multi-agent backend logic
 app.py            → Streamlit UI
 README.md         → Project documentation
+
+
 🎯 Hackathon Alignment
 
 This project demonstrates:
